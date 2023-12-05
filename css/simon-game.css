@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  background-color: darkslategray;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+.simon-container {
+  margin: 20px auto;
+  left: 300px;
+  width: 500px;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 2.25rem;
+  margin:  5%;
+  color: coral;
+  line-height: 3.75rem;
+}
+
+h2 {
+  font-family: monospace;
+  font-size: 2rem;
+}
+
+button {
+  margin: 5px;
+  display: inline-block;
+  height: 215px;
+  width: 215px;
+  border: 12px solid #22222260;
+  box-shadow: 10px 10px 10px #11111150;;
+  cursor: pointer;
+  opacity:1;
+
+  /* transition property is for setting animation
+  takes 3 values: property_to_animate, duration, easing 
+  transition takes effect any time the property changes */
+  transition: opacity .2s ease-in-out
+}
+
+button:hover {
+  filter: saturate(5);
+}
+
+#green {
+  background-color: green;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 100px;
+}
+
+#red {
+  background-color: red;
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 100px;
+  height: 207px;
+  width: 207px;
+}
+
+#yellow {
+  background-color: #dddd22;
+  border-bottom-left-radius: 200px;
+  border-top-right-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+#blue {
+  background-color: blue;
+  border-bottom-right-radius: 200px;
+  border-top-left-radius: 100px;
+}
